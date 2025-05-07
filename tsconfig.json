@@ -7,7 +7,9 @@
     "esModuleInterop": true,              // Allows default imports from CommonJS
     "forceConsistentCasingInFileNames": true,
     "strict": true,                       // Strict type-checking
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "jsx": "react-jsx" // 👈 This enables JSX for React 17+
+
   },
   "include": ["src"]
 }
